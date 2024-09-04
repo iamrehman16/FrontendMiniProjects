@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right bottom,
+    #253728,
+    #1e342e,
+    #1d3132,
+    #212d31,
+    #25292d,
+    #242933,
+    #262938,
+    #2c283b,
+    #332a4b,
+    #3b2a5a,
+    #462a69,
+    #532777
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-height: 180px;
+  width: 25%;
+  background-color: #c9dabe;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  color: #252525;
+  font-size: 1.1rem;
+}
+.header i {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.main-section {
+  margin: 0rem 2rem 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: white;
+  border: none;
+  border-radius: 5rem;
+  /* border: 2px solid black; */
+}
+.main-section input {
+  flex: 1;
+  height: 2rem;
+  border: none;
+  outline: none;
+  margin-left: 1.5rem;
+}
+
+.main-section button {
+  height: 2rem;
+  width: 4rem;
+  background-color: rgb(72, 0, 143);
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  color: white;
+}
+.main-section button:hover{
+    cursor: pointer;
+}
+
+.log-section {
+  height: auto;
+}
+
+.log-section ul {
+    list-style-type: none;
+  /* padding-left: 3rem; */
+  font-size: 1rem;
+  color: black;
+}
+
+.list-item{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+
+}
+
+.list-content{
+    font-size: 1rem;
+    position: relative;
+}
+
+.list-content:hover{
+    cursor: pointer;
+}
+
+.list-content::before{
+  content: "⚪";
+  margin-right: .5rem;
+}
+
+.list-content-completed::before{
+    content: "✔️";
+    margin-right: .5rem;
+}
+.list-content-completed{
+    color: #738f91;
+}
+
+.list-item button{
+    height: 1rem;
+    width: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: .2rem;
+}
+
+/* .list-item button:hover{
+    background-color: #fff;
+    cursor:pointer;
+} */
+

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3494e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.main-glass{
+    width: 144px;
+    height: 320px;
+    border: .25rem solid #0051ff;
+    border-bottom-left-radius:3rem;
+    border-bottom-right-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.emptiness{
+    height: 320px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#0051ff;
+    background-position: top;
+    transition: height 0.3s ease;
+
+}
+.emptiness p{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.emptiness span{
+    font-size: 1rem;
+    color: #3494e4;
+}
+
+.fulness{
+    height: 0px;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 900;
+    background-color:#3494e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius:48px;
+    background-position: bottom;
+    transition: height 0.3s ease;
+}
+
+.mini-glasses{
+    height: auto;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:16px;
+}
+.glass{
+    height: 86px;
+    width:64px ;
+    color: #0051ff;
+    background-color:#fff;
+    border: .2rem solid #0051ff;
+    border-bottom-left-radius: 1.3rem;
+    border-bottom-right-radius:1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    font-weight:lighter;
+    transition: color 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+.mini-glass-active{
+    color: #fff;
+    background-color:#3494e4;
+}

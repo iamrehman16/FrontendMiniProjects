@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    width: 100vw;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab1{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem 14rem;
+    transition: transform 1s ease;
+    transform-origin: top left;
+}
+
+.tab1-active{
+    transform: rotate(-30deg);
+}
+
+img,p,h1,h2{
+    margin-top: 2rem;
+}
+
+img{
+    width: 100%;
+}
+
+.menu{
+    height: 15rem;
+    width: 15rem;
+    background-color: #c06e6e;
+    position:fixed;
+    top: -8rem;
+    left: -8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    transform: rotate(45deg);
+    transition: transform 1s ease;
+}
+.menu i{
+    transform: rotate(-45deg);
+}
+
+.menu-active{
+    transform: rotate(-135deg);
+}
+
+
+.nav{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    padding: 2rem;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    color: #FFF;
+    font-size: 1.6rem;
+    bottom: 5rem;
+    left: -14rem;
+}
+.home, .contact, .profile{
+    margin-top: 1rem;
+    transition: transform 0.7s ease-in;
+}
+.home-active{
+    transform: translateX(13rem);
+}
+.contact-active{
+    transform: translateX(15rem);
+}
+.profile-active{
+    transform: translateX(17rem);
+}
+.home span,.contact span,.profile span{
+    margin-left: 1rem;
+}

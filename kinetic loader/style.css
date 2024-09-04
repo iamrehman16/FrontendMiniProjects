@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #233746;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #659a92;
+    transform-origin: right;
+    transform: rotate(0deg);
+    transition: transform .5s ease-in .5s;
+}
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #659a92 ;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    transform-origin: center;
+    margin-left: -50px;
+    transition: transform .5s ease-in;
+}

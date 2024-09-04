@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+
+.container{
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3rem;
+    box-shadow:
+    0 0 30px rgb(0, 0, 0),
+    0 0 40px rgb(99, 115, 120),
+    0 0 70px rgb(89, 88, 88),
+    inset 0 0 20px rgb(0, 0, 0);
+    /* border: 2px solid red; */
+}
+
+.clock{
+    font-size: 8rem;
+    padding: 2rem;
+}
+
+#hrs{
+    color: rgb(25, 162, 25);
+    text-shadow: 0 0 5px rgb(4, 253, 0),
+    0 0 5px rgb(116, 254, 114);
+}
+
+#mins{
+    color: rgb(255, 200, 0);
+    text-shadow: 0 0 5px rgb(255, 234, 2),
+    0 0 5px #fbff7a;
+}
+
+#secs{
+    color: rgb(0, 106, 255);
+    text-shadow: 0 0 5px rgb(34, 95, 228),
+    0 0 5px #1f68c8;
+}
+
+#ampm{
+    font-size: 2rem;
+    text-shadow: 0 0 5px rgb(208, 233, 255);
+}
+
+#mins::before{
+    content: ':';
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+    position: absolute;
+    left:12rem;
+    bottom:2.8rem;
+}
+#secs::before{
+    content: ':';
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+    position: absolute;
+    left:24.5rem;
+    bottom:2.8rem;
+    animation: animo 1s infinite;
+}
+
+@keyframes animo {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

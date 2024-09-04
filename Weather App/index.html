@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="common search">
+            <input type="search" spellcheck="false" placeholder="Search with City">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="common main">
+            <div class="weather">
+                <img src="drizzle.png">
+                <div class="temp"></div>
+                <div class="name"></div>
+            </div>
+            <div class="description">
+                <div class="feels-like">
+                    <p>Feels Like</p>
+                    <p class="feel"></p>
+                </div>
+                <div class="caption">
+                    
+                </div>
+                <div class="extra-temp">
+                    <div>
+                        Min
+                        <p class="min-temp"></p>
+                    </div>
+                    <div class="div">
+                        Max
+                        <p class="max-temp"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="common atmosphere">
+            <div class="humidity">
+                <img src="humidity.png">
+                <div class="humidity-info">
+                    <p class="humidity-value"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <img src="wind.png">
+                <div class="wind-info">
+                    <p class="wind-value"></p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="sun">
+            <div class="rise">
+                <img src="rise.png">
+                <div class="rise-info">
+                    <p class="rise-value"></p>
+                    <p>Sun Rise</p>
+                </div>
+            </div>
+            <div class="set">
+                <img src="set.png">
+                <div class="set-info">
+                    <p class="set-value"></p>
+                    <p>Sun Set</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>

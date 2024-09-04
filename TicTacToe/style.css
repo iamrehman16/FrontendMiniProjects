@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(black,black);
+}
+
+.box{
+    height: 100%;
+    width:100%;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.block{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-bar{
+    font-size: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-shadow: 
+                0 0 5px #fff,
+                0 0 30px #f900d8,
+                0 0 60px #ff00fb;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* .head-bar h1{
+    margin-left: 37%;
+} */
+.head-bar button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    height: 3rem;
+    width: auto;
+    color: white;
+   text-shadow: 0 0 5px #fff,
+    0 0 30px #f900d8,
+    0 0 60px #ff00fb;
+    border: 2px solid white;
+    padding: 0.5rem;
+}
+
+.newGame-button:hover{
+    cursor: pointer;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 30px #f900d8,
+    0 0 60px #ff00fb,
+    0 0 70px #ff00fb,
+    0 0 90px #ff00fb,
+    0 0 100px #ff00fb;
+}
+
+.inner-container{
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: #fff;
+    gap: .1rem;
+    border: 1px solid black;
+}
+
+.part{
+    background-color: black;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 30px #70dbff,
+    0 0 60px #63e3f4;
+}
+.part:hover{
+    cursor: pointer;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.player1{
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 30px #01fd0d,
+    0 0 60px #00ff2a;
+}
+.player2{
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 30px #fd0101,
+    0 0 60px #ff0000;
+}
+.side-bar p{
+    font-size: 5rem;
+}
+
+.foot-bar{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 3rem;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 30px #70dbff,
+    0 0 60px #63e3f4;
+}
+
+.disabled{
+    cursor: default;
+}
+
+.animateClass{
+    animation: win .5s ease-in-out alternate;
+}
+
+@keyframes win {
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: white;
+    }
+}

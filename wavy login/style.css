@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #4682b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height:auto;
+    width: 25%;
+    background-color: #1d527d;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    /* border-radius: 1rem; */
+}
+
+.head{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.username, .password{
+    border-bottom: 2px solid #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-left: .3rem;
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    height: auto;
+    width: auto;
+    /* border: 1px solid; */
+}
+
+.pass, .user{
+    display: inline-block;
+    margin-left: -3px;
+    transition: 0.2s ease;
+}
+
+.active{
+    transform: translateY(-2rem);
+    color: #75a4ca;
+}
+
+.username input, .password input{
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.username input:focus, .password input:focus{
+    cursor:auto;
+}
+
+.button{
+    height: 4rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+    background-color: #4ca6ca;
+    line-height: 4rem;
+    cursor: pointer;
+}
+
+.account{
+    margin-top:2rem;
+    text-align: center;
+}
+.account a{
+    color: skyblue;
+}
+

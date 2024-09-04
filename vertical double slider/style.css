@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.labels{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    position: relative;
+}
+.label{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    gap: 10px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: margin .5s ease-out;
+}
+.label h1{
+    text-align: center;
+    font-size: 55px;
+}
+.green{
+    background-color: #007a00;
+    margin-top: 0;
+}
+.blue{
+    background-color: #3ba0c8;
+}
+.purple{
+    background-color: #6b286b;
+}
+.black{
+    background-color: #000;
+}
+.golden{
+    background-color: goldenrod;
+}
+
+.down{
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    right: 0;
+    top:50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 1px;
+    cursor: pointer;
+}
+
+
+.images{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    transition: margin .5s ease-out;
+}
+
+._black{
+    background-image: url(saturn.jpg);
+    background-size:cover;
+    background-position: 40%;
+    margin-top: -2960px;
+}
+._purple{
+    background-image: url(lily.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+._golden{
+    background-image: url(dog.jpg);
+    background-size: cover;
+}
+._blue{
+    background-image: url(whale.avif);
+    background-size: cover;
+}
+
+._green{
+    background-image: url(forest.jpg);
+    background-size: cover;
+}
+
+.up{
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border: 1px solid #fff; */
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translate(0,-107%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 1px;
+    cursor: pointer;
+}
+
+.up i,.down i{
+    color: #d1d1ce;
+}
+
+.up i:hover,.down i:hover{
+    color: #fff;
+}
+

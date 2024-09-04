@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: color 1s ease, background-color 1s ease;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.btn{
+    height: 3rem;
+    width: 6rem;
+    background-color:#000;
+    color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+/* .btn:hover{
+    box-shadow: 0 0 3px 3px skyblue;
+} */
+
+.clock{
+    height: 350px;
+    width: 350px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num {
+    position: absolute;
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    /* border-radius: 50%; */
+    /* background-color: lightgrey;  */
+    transform: translate(-50%, -50%);
+}
+.num1  { top: 10%;  left: 50%; }  /* 12 */
+.num2  { top: 16%;  left: 70%; }  /* 1 */
+.num3  { top: 30%;  left: 84%; }  /* 2 */
+.num4  { top: 50%;  left: 90%; }  /* 3 */
+.num5  { top: 70%;  left: 85%; }  /* 4 */
+.num6  { top: 85%;  left: 70%; }  /* 5 */
+.num7  { top: 90%;  left: 50%; }  /* 6 */
+.num8  { top: 85%;  left: 30%; }  /* 7 */
+.num9  { top: 70%;  left: 15%; }  /* 8 */
+.num10 { top: 50%;  left: 10%; }  /* 9 */
+.num11 { top: 30%;  left: 16%; }  /* 10 */
+.num12 { top: 16%;  left: 30%; }  /* 11 */
+
+.needle{
+    position: absolute;
+    /* width: 100px; */
+    bottom: 50%;
+    right: 50%;
+    transform-origin: bottom right;
+}
+
+.hour{
+    border: 2px solid black;
+    height: 70px;
+    
+}
+.minute{
+    border: 2px solid black;
+    height: 100px;
+}
+.second{
+    border: 2px solid red;
+    height: 120px;
+    /* transform: rotate(30deg); */
+}
+
+.origin{
+    height: 12px;
+    width: 12px;
+    border: 3px solid red;
+    background-color: #000;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.hour-active,.minute-active{
+    border: 2px solid #fff;
+}
+
+.num-active{
+    color:#fff;
+}
+
+.btn-active{
+    color: #000;
+    background-color: #fff;
+}
+.body-active{
+    background-color: #000;
+}
