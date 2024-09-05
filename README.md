@@ -4,7 +4,7 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 
 ## Table of Contents
 
-1. [Age Calculator](#age-calculator)
+1. [Age Calculator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/AgeCalculator)
 2. [Amazon CSS Clone](#amazon-css-clone)
 3. [Background Slider](#background-slider)
 4. [Blurry Loading](#blurry-loading)
