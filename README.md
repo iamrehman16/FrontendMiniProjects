@@ -33,7 +33,7 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 27. [Vertical Double Slider](#vertical-double-slider)
 28. [Wavy Login](#wavy-login)
 29. [Weather App](#weather-app)
-30. [Double click animation❤️](/double-click-heart-effect)
+30. [Double click animation❤️](#double-click-heart-effect)
 
 ## Project Descriptions
 
