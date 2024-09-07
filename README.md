@@ -36,6 +36,7 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 30. [Double click animation❤️](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/double%20click%20heart%20effect)
 31. [Auto-Text-Effect](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/auto-text-effect)
 32. [Password-Generator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/password-generator)
+33. [Animated Countdown](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/animated-countdown)
 
 ## Project Descriptions
 
@@ -132,6 +133,8 @@ An instagram style double click ripple effect animation on a picture.
 Autonomous writing text effect with adjustable typing speed.
 ### 32. Password Generator
 A customized password generator that generates password of desired length and characters,symbols,numbers chosen by user.
+### 33. Animated Countdown
+An animated and kinetic countdown that can be replayed as many times as user wants.
 
 ## Contributing
 
