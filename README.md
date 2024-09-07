@@ -34,8 +34,8 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 28. [Wavy Login](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/wavy%20login)
 29. [Weather App](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Weather%20App)
 30. [Double click animation❤️](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/double%20click%20heart%20effect)
-31. [Auto-Text-Effect]
-32. [Password-Generator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Password-Generator)
+31. [Auto-Text-Effect](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/auto-text-effect)
+32. [Password-Generator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/password-generator)
 
 ## Project Descriptions
 
