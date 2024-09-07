@@ -34,6 +34,8 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 28. [Wavy Login](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/wavy%20login)
 29. [Weather App](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Weather%20App)
 30. [Double click animation❤️](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/double%20click%20heart%20effect)
+31. [Auto-Text-Effect]
+32. [Password-Generator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Password-Generator)
 
 ## Project Descriptions
 
@@ -126,6 +128,10 @@ A weather application that fetches and displays the current weather information 
 
 ### 30. Double Click heart animation
 An instagram style double click ripple effect animation on a picture.
+### 31. Auto Text Effect
+Autonomous writing text effect with adjustable typing speed.
+### 32. Password Generator
+A customized password generator that generates password of desired length and characters,symbols,numbers chosen by user.
 
 ## Contributing
 
