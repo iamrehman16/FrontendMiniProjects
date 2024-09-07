@@ -4,35 +4,36 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 
 ## Table of Contents
 
-1. [Age Calculator](#age-calculator)
-2. [Amazon CSS Clone](#amazon-css-clone)
-3. [Background Slider](#background-slider)
-4. [Blurry Loading](#blurry-loading)
-5. [Calculator](#calculator)
-6. [Content Placeholder](#content-placeholder)
-7. [Daraz CSS Clone](#daraz-css-clone)
-8. [Digital Clock](#digital-clock)
-9. [Drink Water Animation](#drink-water-animation)
-10. [Event Keys Manipulation](#event-keys-manipulation)
-11. [Expand Cards](#expand-cards)
-12. [Expanding Searchbar](#expanding-searchbar)
-13. [Kinetic Loader](#kinetic-loader)
-14. [Movie App](#movie-app)
-15. [Progress Steps](#progress-steps)
-16. [Random Choice Picker](#random-choice-picker)
-17. [Ripple Button](#ripple-button)
-18. [Rock Paper Scissor](#rock-paper-scissor)
-19. [Scroll Animation](#scroll-animation)
-20. [Sound Board](#sound-board)
-21. [Split Landing Page](#split-landing-page)
-22. [Sticky Navbar](#sticky-navbar)
-23. [Theme Clock](#theme-clock)
-24. [Tic Tac Toe](#tic-tac-toe)
-25. [Toast Notification](#toast-notification)
-26. [Todo App](#todo-app)
-27. [Vertical Double Slider](#vertical-double-slider)
-28. [Wavy Login](#wavy-login)
-29. [Weather App](#weather-app)
+1. [Age Calculator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/AgeCalculator)
+2. [Amazon CSS Clone](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/amazon-css-clone)
+3. [Background Slider](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/backgroundSlider)
+4. [Blurry Loading](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Blurry%20Loading)
+5. [Calculator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/calculator)
+6. [Content Placeholder](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/content%20placeholder)
+7. [Daraz CSS Clone](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/daraz-css-clone)
+8. [Digital Clock](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/DigitalClock)
+9. [Drink Water Animation](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/drink%20water-animation)
+10. [Event Keys Manipulation](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/eventkeys-manipulation)
+11. [Expand Cards](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/expand%20cards)
+12. [Expanding Searchbar](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/expanding%20searchbar)
+13. [Kinetic Loader](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/kinetic%20loader)
+14. [Movie App](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/movie%20app)
+15. [Progress Steps](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/progress%20steps)
+16. [Random Choice Picker](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/random%20choice%20picker)
+17. [Ripple Button](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/ripple%20button)
+18. [Rock Paper Scissor](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Rock%20Paper%20Scissor)
+19. [Scroll Animation](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/scroll%20animation)
+20. [Sound Board](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/sound%20board)
+21. [Split Landing Page](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/split%20landing%20page)
+22. [Sticky Navbar](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/sticky%20navbar)
+23. [Theme Clock](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/theme%20clock)
+24. [Tic Tac Toe](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/TicTacToe))
+25. [Toast Notification](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/toast%20notification)
+26. [Todo App](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/todo)
+27. [Vertical Double Slider](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/vertical%20double%20slider)
+28. [Wavy Login](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/wavy%20login)
+29. [Weather App](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Weather%20App)
+30. [Double click animation❤️](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/double%20click%20heart%20effect)
 
 ## Project Descriptions
 
@@ -123,6 +124,8 @@ A login form with a wavy animation effect, enhancing the visual appeal of the lo
 ### 29. Weather App
 A weather application that fetches and displays the current weather information for a specified location.
 
+### 30. Double Click heart animation
+An instagram style double click ripple effect animation on a picture.
 
 ## Contributing
 
