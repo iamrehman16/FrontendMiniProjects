@@ -37,6 +37,7 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 31. [Auto-Text-Effect](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/auto-text-effect)
 32. [Password-Generator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/password-generator)
 33. [Animated Countdown](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/animated-countdown)
+34. [Good Cheap Fast](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Good-Cheap-Fast)
 
 ## Project Descriptions
 
@@ -135,6 +136,8 @@ Autonomous writing text effect with adjustable typing speed.
 A customized password generator that generates password of desired length and characters,symbols,numbers chosen by user.
 ### 33. Animated Countdown
 An animated and kinetic countdown that can be replayed as many times as user wants.
+## Good Cheap Fast
+Select parameters/quality of you project with predefined consatraints.
 
 ## Contributing
 
