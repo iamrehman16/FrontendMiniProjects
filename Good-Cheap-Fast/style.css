@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #01132a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.container{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container p{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.wrapper label{
+    color: #fff;
+    font-size: 2rem;
+    width: 100px;
+    margin-right: 100px;
+}
+
+.toggle-btn{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background-color:#888;
+    padding: 4px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition:all 0.3s ease;
+}
+
+.btn-active{
+    background-color: #0f8000;
+}
+
+.ball{
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    background-color:blanchedalmond;
+    transition: transform .3s ease-in-out;
+}
+.ball-active{
+    transform: translateX(5rem);
+}
+
