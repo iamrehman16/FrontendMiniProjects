@@ -38,6 +38,8 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 32. [Password-Generator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/password-generator)
 33. [Animated Countdown](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/animated-countdown)
 34. [Good Cheap Fast](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Good-Cheap-Fast)
+35. [HoverBoard](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/hoverboard)
+36. [Simple Timer](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/simple-timer)
 
 ## Project Descriptions
 
@@ -138,6 +140,10 @@ A customized password generator that generates password of desired length and ch
 An animated and kinetic countdown that can be replayed as many times as user wants.
 ## Good Cheap Fast
 Select parameters/quality of you project with predefined consatraints.
+## Hoverboard
+Satisfying colorful hoverboard that glows in vibrant colors when you hover.
+## Simple Timer
+A simple timer with animated circular progress bar and play/pause amd reset buttons.
 
 ## Contributing
 
