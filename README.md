@@ -138,11 +138,11 @@ Autonomous writing text effect with adjustable typing speed.
 A customized password generator that generates password of desired length and characters,symbols,numbers chosen by user.
 ### 33. Animated Countdown
 An animated and kinetic countdown that can be replayed as many times as user wants.
-## Good Cheap Fast
+## 34. Good Cheap Fast
 Select parameters/quality of you project with predefined consatraints.
-## Hoverboard
+## 35. Hoverboard
 Satisfying colorful hoverboard that glows in vibrant colors when you hover.
-## Simple Timer
+## 36. Simple Timer
 A simple timer with animated circular progress bar and play/pause amd reset buttons.
 
 ## Contributing
