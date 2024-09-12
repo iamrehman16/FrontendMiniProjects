@@ -33,13 +33,14 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 27. [Vertical Double Slider](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/vertical%20double%20slider)
 28. [Wavy Login](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/wavy%20login)
 29. [Weather App](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Weather%20App)
-30. [Double click animation❤️](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/double%20click%20heart%20effect)
+30. [Double click animation](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/double%20click%20heart%20effect)
 31. [Auto-Text-Effect](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/auto-text-effect)
 32. [Password-Generator](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/password-generator)
 33. [Animated Countdown](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/animated-countdown)
 34. [Good Cheap Fast](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/Good-Cheap-Fast)
 35. [HoverBoard](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/hoverboard)
 36. [Simple Timer](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/simple-timer)
+37. [Catch Insect Game](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/insect-catcher)
 
 ## Project Descriptions
 
@@ -144,6 +145,8 @@ Select parameters/quality of you project with predefined consatraints.
 Satisfying colorful hoverboard that glows in vibrant colors when you hover.
 ## 36. Simple Timer
 A simple timer with animated circular progress bar and play/pause amd reset buttons.
+## 37. Catch Insect Game
+An interesting insect catching game with bonuses and custom insects.
 
 ## Contributing
 
