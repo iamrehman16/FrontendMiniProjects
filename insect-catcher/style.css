@@ -1,0 +1,182 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+}
+
+body {
+    height: auto;
+    width: 100vw;
+    background-color: #516dff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* First tab: Main menu with play button */
+.tab1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: margin 0.3s ease-out;
+}
+.tab1 p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.tab1 .play-btn {
+    padding: 1rem;
+    background-color: #fff;
+    color: #516dff;
+    cursor: pointer;
+}
+.tab1 .play-btn:active {
+    transform: scale(0.98);
+}
+
+/* Second tab: Insect selection */
+.tab2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: margin 0.3s ease-out;
+}
+.tab2 span {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.tab2 .category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab2 .category .insects {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding-top: 10px;
+    margin: 2rem;
+}
+.tab2 .category .insects:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+}
+.tab2 .category .insects img {
+    height: 150px;
+    width: 150px;
+}
+.tab2 .category .insects:active {
+    transform: scale(0.98);
+}
+
+/* Third tab: Game play area */
+.tab3 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: margin 0.3s ease-out;
+}
+.tab3 .bar {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px; 
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    position: relative;
+}
+.tab3 .playground {
+    flex-grow: 1;
+    position: relative;
+}
+.spawn-insect {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* Fire button and animation */
+.fire {
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    animation: glow 0.5s ease-out infinite;
+    cursor: pointer;
+}
+.fire-animation {
+    animation: glow 0.1s ease infinite;
+}
+@keyframes glow {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0.7);
+    }
+}
+
+/* End game stats and buttons */
+.stats {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.stats-box {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+.stats-box p {
+    text-align: center;
+    color: #516dff;
+}
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #516dff;
+    cursor: pointer;
+}
+.btn-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
