@@ -103,6 +103,7 @@ function endGame() {
 
 // Burns all insects on the screen and respawns new ones
 async function burnIt(el) {
+  score+=10;
   document.querySelector('.bar').removeChild(el); // Remove the fire icon
   let spawnedInsectsAll = document.querySelectorAll('.spawn-insect'); // Get all insects
 
@@ -124,7 +125,7 @@ function play() {
     document.querySelector(".time").innerText = `Time: 00:${time.toString().padStart(2, 0)}`; // Update the timer
     time--; // Decrement time
 
-    if (time == -1) { // If time runs out
+    if (time <=0) { // If time runs out
       clearInterval(playInterval); // Stop the game
       endGame(); // Show end-game screen
     }
