@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <audio src="" ></audio>
+    <div class="container">
+      <div class="menu">
+        <div class="btns"><i class="fa-solid fa-bars"></i></div>
+      </div>
+      <div class="dashboard">
+        <div class="dashbtns">
+          <i class="fa-solid fa-angle-left" id="close-btn"></i>
+          <i class="fa-solid fa-plus" id="add-btn"><input type="file" id="file-input" class="file-input" accept=".mp3"></i>
+          
+        </div>
+        <button class="song" value="The Neighbourhood - Reflections.mp3">The Neighbourhood - Reflections</button>
+        <button class="song" value="Sweater Weather - The NeighbourHood.mp3">The Neighbourhood - Sweater Weather</button>
+      </div>
+      <div class="disc">
+        <div class="imgdiv"> <img src="music.png" alt="Music Logo" /></div>
+        <div class="title">-----</div>
+      </div>
+      <div class="range">
+        <div class="elapsed">00:00</div>
+        <input type="range" id="#range" min="0"/>
+        <div class="total">00:00</div>
+      </div>
+      <div class="controls">
+        <div class="prev btns"><i class="fa-solid fa-backward-step"></i></div>
+        <div class="playpause btns"><i class="fa-solid fa-play"></i></div>
+        <div class="next btns"><i class="fa-solid fa-forward-step"></i></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
