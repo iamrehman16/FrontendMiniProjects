@@ -42,6 +42,7 @@ Welcome to the Frontend Mini Projects Repository! This repository contains a col
 36. [Simple Timer](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/simple-timer)
 37. [Catch Insect Game](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/insect-catcher)
 38. [Music Player](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/music-player)
+39. [Car game](https://github.com/iamrehman16/FrontendMiniProjects/tree/master/car-game)
 
 ## Project Descriptions
 
@@ -150,6 +151,8 @@ A simple timer with animated circular progress bar and play/pause amd reset butt
 An interesting insect catching game with bonuses and custom insects.
 ## 38. Music Player
 A fine-looking MP3 player where you can seek and drag music, next, previous, play, pause and library features are included.
+## 39. Car Game
+An interesting 90s nostalgia car game with traffic and multiple roads.
 
 ## Contributing
 
